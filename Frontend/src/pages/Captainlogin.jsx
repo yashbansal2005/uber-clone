@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 import { useNavigate } from 'react-router'
 import axios from 'axios'
 import { CaptainDataContext } from '../context/captainContext'
-
+// comment added
 function CaptainLogin() {
 const navigate= useNavigate()
 const {captain,setCaptain}=useContext(CaptainDataContext)
